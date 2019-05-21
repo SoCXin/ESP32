@@ -1,9 +1,9 @@
 ﻿# [ESP32](https://github.com/sochub/ESP32) 
 [![sites](SoC/qitas.png)](http://www.qitas.cn)
 
-#### 父级：[espressif乐鑫](https://github.com/sochub/espressif)
+#### 厂商：[espressif乐鑫](https://github.com/sochub/espressif)
 
-#### 归属：[MIPS](https://github.com/sochub/MIPS)
+#### 架构：[MIPS](https://github.com/sochub/MIPS)
 
 ### [描述](https://github.com/sochub/ESP32/wiki) 
 
@@ -19,7 +19,7 @@ ESP32采用两个哈佛结构 Xtensa LX6 CPU 构成双核系统，运算能力�
 - [资源](src/) 
 - [工程](project/) 
 
-#### [硬件开发资源](https://github.com/sochub/CH579)
+#### [硬件开发资源](https://github.com/sochub/ESP32)
 
 [![sites](docs/ESP32.png)](http://www.qitas.cn)
 
@@ -32,5 +32,16 @@ ESP32采用两个哈佛结构 Xtensa LX6 CPU 构成双核系统，运算能力�
 [![sites](docs/ESP32-5.png)](http://www.qitas.cn)
 
 * [kicad资源](src/kicad/)
+
+
+### [选型建议](https://github.com/sochub/ESP32)
+
+espressif乐鑫凭借现象级 WiFi SoC [ESP8266](https://github.com/sochub/ESP8266)进入开发者视野，各种工程案例和硬件设备/模块广泛流传，极大拉低了市场WIFI芯片的价格，也让开发者接受了Xtensa系列处理器的开发方式。
+
+espressif乐鑫之后推出性能更强大，同时支持BT的[ESP32](https://github.com/sochub/ESP32)，虽然性价比很高，但此时的市场已经有越来越多的竞争者，例如[RTL8710](https://github.com/sochub/RTL8710) 和 [RDA5981](https://github.com/sochub/RDA5981)等，向上是TI的CC3200系列，向下还有更多的进入者。
+
+ESP32最大的痛点在于没有足够的片上flash，需要外挂SPI Flash导致BOM成本提高，后ESP32-D2WD内置16-Mbit，然后就是window下的开发工具不友好，毕竟不是arm阵营，好多资源用不上，低功耗性能也不好可以当作从上至下的一种产品定位。
+
+
 
 ###  [SoC资源平台](http://www.qitas.cn)   
