@@ -1,17 +1,15 @@
 ﻿# [ESP32](https://github.com/sochub/ESP32) 
 [![sites](SoC/qitas.png)](http://www.qitas.cn)
-
-#### 厂商：[espressif乐鑫](https://github.com/sochub/espressif)
-
+#### 厂商：[espressif](https://github.com/sochub/espressif)
 #### 架构：[MIPS](https://github.com/sochub/MIPS)
-
+#### 收录芯片定级：[Level](https://github.com/sochub/Level)
 ### [描述](https://github.com/sochub/ESP32/wiki) 
 
 ESP32采用两个哈佛结构 Xtensa LX6 CPU 构成双核系统，运算能力高达600 MIPS，芯片集成448KB ROM + 520KB SRAM。所有的片上存储器、片外存储器以及外设都分布在两个 CPU 的数据总线和／或指令总线上。
 
-[![sites](docs/func.png)](http://www.qitas.cn)
+[![sites](docs/func.png)](https://www.espressif.com/zh-hans/products/hardware/esp32/overview)
 
-关键参数：
+### 关键参数：
 
 * 40nm双核32位Xtensa LX6、运算能力高达 600 MIPS（除 ESP32-S0WD 为 200 MIPS，ESP32-D2WD
 为 400 MIPS）
