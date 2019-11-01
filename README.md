@@ -1,22 +1,24 @@
 ﻿# [ESP32](https://github.com/sochub/ESP32) 
 [![sites](SoC/qitas.png)](http://www.qitas.cn)
+
 #### 厂商：[espressif](https://github.com/sochub/espressif)
 #### 架构：[MIPS](https://github.com/sochub/MIPS)
-#### 收录芯片定级：[Level](https://github.com/sochub/Level)
-### [描述](https://github.com/sochub/ESP32/wiki) 
+#### 芯片定级：[Level](https://github.com/sochub/Level)
+### [ESP32描述](https://github.com/sochub/ESP32/wiki) 
 
-ESP32采用两个哈佛结构 Xtensa LX6 CPU 构成双核系统，运算能力高达600 MIPS，芯片集成448KB ROM + 520KB SRAM。所有的片上存储器、片外存储器以及外设都分布在两个 CPU 的数据总线和／或指令总线上。
+[ESP32](https://github.com/sochub/ESP32) 采用两个哈佛结构Xtensa LX6构成双核系统，运算能力高达600 MIPS，芯片集成448KB ROM + 520KB SRAM。所有的片上存储器、片外存储器以及外设都分布在两个 CPU 的数据总线和／或指令总线上。
+
+ESP32拥有丰富完整的外设资源，可以满足大多数嵌入式需求场景，风靡于创客群体。
+
+Xtensa LX系列处理器具有很强的可重构性和可拓展性，来自Tensilica，是唯一一家拥有利用一个完整的软件开发工具环境生成定制微处理器核心,并可在几个小时内生产出新处理器配置的厂商,它使得费时的开发过程实现了自动化。
 
 [![sites](docs/func.png)](https://www.espressif.com/zh-hans/products/hardware/esp32/overview)
 
 ### 关键参数：
 
-* 40nm双核32位Xtensa LX6、运算能力高达 600 MIPS（除 ESP32-S0WD 为 200 MIPS，ESP32-D2WD
-为 400 MIPS）
-* 802.11 b/g/n，802.11 n(2.4 GHz)速度高达 150 Mbps
-* 蓝牙 v4.2 完整标准，包含传统蓝牙 (BR/EDR) 和低功耗蓝牙 (BLE)， 输出功率高达 +12 dBm，–97dBm的BLE接收灵敏度
-* 集于balun、功率放大器、接收低噪声放大器、滤波器、电源管理模块等
-* 工作温度范围–40°C 到 +125°C。集成的自校准电路实现了动态电压调整
+* 40nm 32位双核Xtensa LX6、运算能力高达 600 MIPS（ESP32-S0WD 200 MIPS，ESP32-D2WD 400 MIPS）
+* 1T1R 802.11 b/g/n，802.11n速度可达 150 Mbps
+* 蓝牙v4.2完整标准，输出功率 +12 dBm，–97dBm的BLE接收灵敏度，集成balun、功率放大器、接收低噪声放大器、滤波器、电源管理模块等
 
 ### [资源收录](https://github.com/sochub/ESP32)
 
@@ -25,6 +27,7 @@ ESP32采用两个哈佛结构 Xtensa LX6 CPU 构成双核系统，运算能力�
 * [文档](docs/) 
 * [资源](src/) 
 * [工程](project/) 
+
 * [官方资源](https://www.espressif.com/zh-hans/products/hardware/esp32/resources) 
 
 #### [硬件开发资源](https://github.com/sochub/ESP32)
