@@ -1,12 +1,13 @@
 ﻿# [ESP32](https://github.com/sochub/ESP32) 
 [![sites](SoC/qitas.png)](http://www.qitas.cn)
 
-#### 厂商：[espressif](https://github.com/sochub/espressif)
-#### 架构：[MIPS](https://github.com/sochub/MIPS)
-#### 芯片定级：[Level](https://github.com/sochub/Level)
+#### [Vendor](https://github.com/sochub/Vendor)：[Espressif](https://github.com/sochub/espressif)
+#### [MIPS](https://github.com/sochub/MIPS)：Xtensa LX6
+#### [Level](https://github.com/sochub/Level)：600 MIPS / 240MHz
+
 ### [ESP32描述](https://github.com/sochub/ESP32/wiki) 
 
-[ESP32](https://github.com/sochub/ESP32) 采用两个哈佛结构Xtensa LX6构成双核系统，运算能力高达600 MIPS，芯片集成448KB ROM + 520KB SRAM。所有的片上存储器、片外存储器以及外设都分布在两个 CPU 的数据总线和／或指令总线上。
+[ESP32](https://github.com/sochub/ESP32) 采用两个哈佛结构Xtensa LX6构成双核系统，运算能力高达600 MIPS，芯片集成448KB ROM + 520KB SRAM。所有的片上存储器、片外存储器以及外设都分布在两个 CPU的数据总线和／或指令总线上。
 
 ESP32拥有丰富完整的外设资源，可以满足大多数嵌入式需求场景，风靡于创客群体。
 
@@ -16,8 +17,10 @@ Xtensa LX系列处理器具有很强的可重构性和可拓展性，来自Tensi
 
 ### 关键参数：
 
+兴趣特征： WiFi + BT/BLE & ETH MAC + CAN
+
 * 40nm 32位双核Xtensa LX6、运算能力高达 600 MIPS（ESP32-S0WD 200 MIPS，ESP32-D2WD 400 MIPS）
-* 1T1R 802.11 b/g/n，802.11n速度可达 150 Mbps
+* 1T1R 802.11 b/g/n WiFi，802.11n速度可达 150 Mbps
 * 蓝牙v4.2完整标准，输出功率 +12 dBm，–97dBm的BLE接收灵敏度，集成balun、功率放大器、接收低噪声放大器、滤波器、电源管理模块等
 
 ### [资源收录](https://github.com/sochub/ESP32)
@@ -47,11 +50,9 @@ Xtensa LX系列处理器具有很强的可重构性和可拓展性，来自Tensi
 
 ### [选型建议](https://github.com/sochub/ESP32)
 
-espressif乐鑫凭借现象级 WiFi SoC [ESP8266](https://github.com/sochub/ESP8266)进入开发者视野，各种工程案例和硬件设备/模块广泛流传，极大拉低了市场WIFI芯片的价格，也让开发者接受了Xtensa系列处理器的开发方式。
+[Espressif](https://github.com/sochub/espressif) 乐鑫凭借现WiFi SoC [ESP8266](https://github.com/sochub/ESP8266)进入硬件开发者视野，在ARM大行其道的时代，让开发者接受了Xtensa系列处理器的开发。之后推出性能更强大，同时支持BT的[ESP32](https://github.com/sochub/ESP32)，拥抱arduino和各种社区，巩固了在开源硬件领域的地位。
 
-espressif乐鑫之后推出性能更强大，同时支持BT的[ESP32](https://github.com/sochub/ESP32)，虽然性价比很高，但此时的市场已经有越来越多的竞争者，例如[RTL8710](https://github.com/sochub/RTL8710) 和 [RDA5981](https://github.com/sochub/RDA5981)等，向上是TI的CC3200系列，向下还有更多的进入者。
-
-ESP32最大的痛点在于没有足够的片上flash，需要外挂SPI Flash导致BOM成本提高，后ESP32-D2WD内置16-Mbit，然后就是window下的开发工具不友好，毕竟不是arm阵营，好多资源用不上，低功耗性能也不好可以当作从上至下的一种产品定位。
+相关的竞品如[RTL8710](https://github.com/sochub/RTL8710) 和 [RDA5981](https://github.com/sochub/RDA5981)等，都是基于arm cortex打造，产品的同质化严重，开发资源不及。
 
 
 ###  [SoC资源平台](http://www.qitas.cn)   
