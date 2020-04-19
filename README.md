@@ -1,9 +1,10 @@
 ﻿# [ESP32](https://github.com/sochub/ESP32) 
-[![sites](SoC/qitas.png)](http://www.qitas.cn)
 
-#### [Vendor](https://github.com/sochub/Vendor)：[Espressif](https://github.com/sochub/espressif)
-#### [MIPS](https://github.com/sochub/MIPS)：Xtensa LX6
-#### [Level](https://github.com/sochub/Level)：600 MIPS / 240MHz
+[![sites](http://182.61.61.133/link/resources/SoC.png)](https://stop.stops.top) 
+
+#### [Vendor](https://github.com/sochub/Vendor)：[Espressif](https://www.espressif.com/)
+#### [Core](https://github.com/sochub/MIPS)：[Xtensa LX6](https://github.com/sochub/Tensilica)
+#### [Level](https://github.com/sochub/Level)：240MHz / 600 MIPS
 
 ### [ESP32描述](https://github.com/sochub/ESP32/wiki) 
 
