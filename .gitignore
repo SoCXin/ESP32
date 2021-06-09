@@ -10,10 +10,13 @@ Debug
 *.autosave
 *~
 *#
+AUTHORS
 Change*
 CHANGE*
 README*
 COPY*
+NEWS
+TODO
 *CONTRIBU*
 LICENSE*
 HACKING*
@@ -30,7 +33,7 @@ README*
 *.hex
 *.bin
 *bak
-# *.txt
+*.txt
 *.lst
 *.sct
 *.elf

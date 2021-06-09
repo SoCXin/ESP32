@@ -3,7 +3,7 @@
 [![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
 * [Espressif](https://www.espressif.com/): [Xtensa LX6](https://github.com/SoCXin/MIPS)
-* [L6R4](https://github.com/SoCXin/Level): 2 x 240 MHz x 2.5 DMIPS/MHz, [2.4 CoreMark/MHz](https://www.eembc.org/coremark/scores.php)
+* [L5R4](https://github.com/SoCXin/Level): 240 MHz x 2.5 DMIPS/MHz, [160MHz x 4.13 CoreMark/MHz](https://www.eembc.org/coremark/scores.php)
 
 
 ### [简介](https://github.com/SoCXin/ESP32/wiki)
@@ -15,15 +15,16 @@
 
 #### 关键参数
 
-* Xtensa® LX6 240 MHz x 2,40nm, 600 MIPS（ESP32-S0WD 200 MIPS，ESP32-D2WD 400 MIPS）
+* Xtensa® LX6 240 MHz,40nm, 600 MIPS（ESP32-S0WD 200 MIPS，ESP32-D2WD 400 MIPS）
 * 520 KB SRAM (TCM)，448 KB ROM
 * 1T1R 802.11 b/g/n WiFi，802.11n速度可达 150 Mbps
 * BLE v4.2 +12 dBm，–97dBm
-* Octal SPI flash
+* 3 x UART
 * CAN
 * Host SD/eMMC/SDIO
 * Slave SDIO/SPI
 * IEEE 1588 MAC
+* 硬件加密单元： AES/RSA/ECC
 * 霍尔传感器
 
 
