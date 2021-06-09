@@ -1,3 +1,0 @@
-[submodule "espressif"]
-	path = espressif
-	url = https://github.com/sochub/espressif.git
