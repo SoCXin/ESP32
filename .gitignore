@@ -49,7 +49,7 @@ README*
 *.zip
 *.xcf
 # *.png
-*.jpg
+# *.jpg
 *.rst
 *.srec
 *_sc*
